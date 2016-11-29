@@ -6,7 +6,7 @@
 # https://github.com/Libresonic/libresonic
 #
 
-FROM tomcat:6.0
+FROM tomcat:9
 
 MAINTAINER Toni Pesola
 
