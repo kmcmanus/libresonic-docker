@@ -19,7 +19,7 @@ RUN apt-get update && \
 # Download and setup libresonic
 RUN rm -rf /usr/local/tomcat/webapps && mkdir /usr/local/tomcat/webapps
 
-RUN wget https://libresonic.org/release/libresonic-v6.0.1.war -O /usr/local/tomcat/webapps/ROOT.war
+RUN wget https://libresonic.org/release/libresonic-v6.1.war -O /usr/local/tomcat/webapps/ROOT.war
 
 # Setup transcoding libs so that libresonic can use them
 RUN mkdir -p /var/subsonic/transcode
